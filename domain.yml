@@ -1,0 +1,26 @@
+intents:
+  - greet
+  - classes_information
+  - goodbye
+
+responses:
+  utter_greet:
+  - text: "You are welcome! Write your university code: How i can help you?"
+
+  utter_classes_information:
+  - text: "Your class is on the second floor."
+
+  utter_gratefulness:
+  - text: "You can ask me if you have any other questions at any time."
+
+  utter_goodbye:
+  - text: "Bye! Take care."
+
+slots:
+  id_student:
+    type: text
+    initial_value: ""
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
