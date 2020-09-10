@@ -1,6 +1,8 @@
 intents:
   - greet
   - classes_information
+  - class_information
+  - gratefulness
   - goodbye
 
 responses:
@@ -8,6 +10,9 @@ responses:
   - text: "You are welcome! Write your university code: How i can help you?"
 
   utter_classes_information:
+  - text: "Your classes are on Monday and Tuesday."
+
+  utter_class_information:
   - text: "Your class is on the second floor."
 
   utter_gratefulness:
